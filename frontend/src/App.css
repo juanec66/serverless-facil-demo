@@ -1,0 +1,16 @@
+.page{max-width:930px;margin:auto;padding:55px 24px}
+.eyebrow{color:#ff9900;font-weight:700;font-size:13px;letter-spacing:2px;margin-bottom:38px}
+.panel{background:#1b2638;border:1px solid #3b465a;border-radius:20px;padding:44px;box-shadow:0 24px 70px #05090e77}
+.marker{color:#62c8ff;font-size:13px;letter-spacing:2px;font-weight:700}
+h1{font-size:clamp(38px,6vw,65px);line-height:1.04;margin:17px 0 20px}
+.lead{font-size:20px;line-height:1.5;color:#d8dfeb;max-width:620px;margin-bottom:35px}
+label{display:block;font-weight:600;margin-bottom:12px}
+.input-row{display:flex;gap:12px;flex-wrap:wrap}
+input{flex:1;min-width:220px;min-height:52px;padding:0 17px;background:#101923;border:1px solid #748096;border-radius:10px;color:white;font:inherit}
+button{background:#ff9900;color:#161d27;border:0;border-radius:10px;padding:15px 24px;font:inherit;font-weight:800;cursor:pointer}
+button:hover{background:#ffc14d}button:disabled{opacity:.6;cursor:wait}
+.respuesta{margin-top:34px;padding:22px;background:#111a27;border:1px solid #445368;border-radius:12px;min-height:110px}
+.pill{font:700 12px ui-monospace,monospace;color:#59c6ff}
+.respuesta p{font-size:23px;margin:15px 0}.respuesta small{color:#b4becd}
+footer{text-align:center;margin-top:30px;color:#b4becd;font-size:13px}
+@media(max-width:560px){.panel{padding:26px}.input-row button{width:100%}}

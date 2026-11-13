@@ -1,0 +1,7 @@
+node_modules/
+frontend/dist/
+frontend/.vite/
+.aws-sam/
+samconfig.toml
+.DS_Store
+.env
